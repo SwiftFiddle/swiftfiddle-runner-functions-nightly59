@@ -8,7 +8,8 @@ on:
     paths:
       - "**"
       - ".github/workflows/runner-functions-nightly59-AutoDeployTrigger-5b907a8f-d124-482e-9f28-f5e6587c7094.yml"
-
+  schedule:
+    - cron: "0 15 * * *"
   # Allow manual trigger
   workflow_dispatch:
 
